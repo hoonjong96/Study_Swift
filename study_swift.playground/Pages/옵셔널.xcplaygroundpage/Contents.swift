@@ -9,7 +9,8 @@ import UIKit
 
 // Q. 아직 나이가 없는 경우 로직을 작성할때 대부분 개발자는 다음과 같이 0으로 받는다.
 
-var myAge: Int? = 0
+var myAge: Int?
+
 
 //if myAge == 0 {
 //
@@ -20,9 +21,15 @@ var myAge: Int? = 0
 // 값이 없다는 것을 받으려면 옵셔널을 다음과 같이 이용해야 한다.
  
 // var myAge: Int? = 0
-myAge = nil
 
 if myAge == nil {
     
     print("아직 태어나지 않은 아기로 예측됩니다.")
+}
+
+var myName : String?
+
+if myName == nil {
+    
+    print("닉네임이 아직 없으시군요. 원하시는 닉네임을 입력해주시겠어요?")
 }
