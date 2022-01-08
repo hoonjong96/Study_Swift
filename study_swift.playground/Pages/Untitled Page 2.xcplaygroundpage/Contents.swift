@@ -33,3 +33,6 @@ myFrindsList.friend1
 myFrindsList.friend2 = "홍익인간"
 print(myFrindsList.friend2)
 
+var fruitList : [String] = ["바나나", "사과", "망고", "수박"]
+fruitList.remove(at: 0)
+print(fruitList)
