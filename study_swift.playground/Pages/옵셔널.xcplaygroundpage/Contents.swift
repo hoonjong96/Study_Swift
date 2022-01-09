@@ -32,4 +32,12 @@ var myName : String?
 if myName == nil {
     
     print("닉네임이 아직 없으시군요. 원하시는 닉네임을 입력해주시겠어요?")
+  
 }
+myName = "바보"
+if myName == "바보" {
+    print("닉네임을 더 예쁜걸로 수정해보시는게 어때요?")
+}
+
+
+//
