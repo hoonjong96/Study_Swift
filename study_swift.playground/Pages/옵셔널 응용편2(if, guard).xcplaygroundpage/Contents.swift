@@ -24,3 +24,23 @@ if mynum2 != nil {
 if let myVar = myNum1 {
     print(myVar)
 }
+
+var foodLIst : [String] = ["햄버거", "핫도그"]
+foodLIst.append("피자")
+
+var score1 : Int? = 5
+
+if var score2 = score1 {
+    score2 = score2 * 2
+    print(score2)
+    
+}
+
+var ex1 : Int? = 5
+
+if ex1 != nil {
+    print("닐이아닌 경우에 실행하였기 때문에 포스를 사용합니다.. 아니면 1번방법을 사용해도 됨 ")
+    print(ex1!)
+    print( (ex1 ?? 0)  )
+    
+}
