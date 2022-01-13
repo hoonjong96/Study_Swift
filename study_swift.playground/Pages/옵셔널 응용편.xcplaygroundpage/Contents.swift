@@ -22,3 +22,14 @@ var num2: Int? = nil
 var sum = (num1 ?? 0) + (num2 ?? 0)
 (num2 ?? 0)
 
+// 언랩 2번 방법(포쓰언랩)
+var myAge: Int? = nil
+var myWeight: Int? = 60
+
+print(myWeight!)
+
+print(myAge!)
+var ex = myWeight! + myAge!
+
+
+

@@ -6,6 +6,7 @@
         <page name='옵셔널'/>
         <page name='옵셔널 예외경우'/>
         <page name='복습'/>
-        <page name='옵셔널 응용편'/>
+        <page name='옵셔널 응용편'/>
+        <page name='옵셔널 응용편2(if, guard)'/>
     </pages>
 </playground>
