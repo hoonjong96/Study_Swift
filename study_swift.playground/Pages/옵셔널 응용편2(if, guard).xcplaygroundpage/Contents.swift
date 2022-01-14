@@ -46,20 +46,14 @@ import UIKit
 //}
 
 // 가드 언랩핑
+var myNum1: Int? 
 
-// 가드 Let
-
-
-var myNum: Int? 
-
-func testFunc() {
-    guard let checkNum = myNum else {
-    //거짓일때 내용을 작성
-    print("myNum 내용이 없습니다.")
+func mytestFunc() {
+    guard let checkLet = myNum1 else {
     return
     }
-    print(checkNum)
-    print("end")
+    print(checkLet)
+    print("참 입니다.")
 }
 
-testFunc()
+mytestFunc()
