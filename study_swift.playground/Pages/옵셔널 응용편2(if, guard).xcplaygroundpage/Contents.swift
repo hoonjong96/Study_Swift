@@ -10,37 +10,56 @@ import UIKit
 //}
 
 // if let 언랩핑
-var myNum1: Int? = 5
-if let myKey = myNum1 {
-    print(myKey)
-}
+//var myNum1: Int? = 5
+//if let myKey = myNum1 {
+//    print(myKey)
+//}
 
 //언랩핑 하지 않았음 --> 옵셔널 타입으로 그대로 출력
-var mynum2: Int? = 10
-if mynum2 != nil {
-    print(mynum2)
+//var mynum2: Int? = 10
+//if mynum2 != nil {
+//    print(mynum2)
+//}
+//
+//if let myVar = myNum1 {
+//    print(myVar)
+//}
+//
+//var foodLIst : [String] = ["햄버거", "핫도그"]
+//foodLIst.append("피자")
+//
+//var score1 : Int? = 5
+//
+//if var score2 = score1 {
+//    score2 = score2 * 2
+//    print(score2)
+//
+//}
+//
+//var ex1 : Int? = 5
+//
+//if ex1 != nil {
+//    print("닐이아닌 경우에 실행하였기 때문에 포스를 사용합니다.. 아니면 1번방법을 사용해도 됨 ")
+//    print(ex1!)
+//    print( (ex1 ?? 0)  )
+//
+//}
+
+// 가드 언랩핑
+
+// 가드 Let
+
+
+var myNum: Int? 
+
+func testFunc() {
+    guard let checkNum = myNum else {
+    //거짓일때 내용을 작성
+    print("myNum 내용이 없습니다.")
+    return
+    }
+    print(checkNum)
+    print("end")
 }
 
-if let myVar = myNum1 {
-    print(myVar)
-}
-
-var foodLIst : [String] = ["햄버거", "핫도그"]
-foodLIst.append("피자")
-
-var score1 : Int? = 5
-
-if var score2 = score1 {
-    score2 = score2 * 2
-    print(score2)
-    
-}
-
-var ex1 : Int? = 5
-
-if ex1 != nil {
-    print("닐이아닌 경우에 실행하였기 때문에 포스를 사용합니다.. 아니면 1번방법을 사용해도 됨 ")
-    print(ex1!)
-    print( (ex1 ?? 0)  )
-    
-}
+testFunc()
