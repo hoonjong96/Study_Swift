@@ -8,6 +8,7 @@
         <page name='복습'/>
         <page name='옵셔널 응용편'/>
         <page name='옵셔널 응용편2(if, guard)'/>
-        <page name='기본 연산자'/>
+        <page name='기본 연산자'/>
+        <page name='비교 연산자'/>
     </pages>
 </playground>
