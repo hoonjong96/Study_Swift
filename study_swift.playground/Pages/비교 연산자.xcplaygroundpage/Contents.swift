@@ -32,7 +32,14 @@ if checkNum >= 90 {
 }
 
 else if checkNum == 89 {
-    
+    //
 }
 
+// 연습
 
+var myAge: Int
+myAge = 27
+
+if myAge >= 0 {
+    print("나이가 0살 이상입니다")
+}
